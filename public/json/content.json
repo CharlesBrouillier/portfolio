@@ -1,0 +1,81 @@
+{
+  "gameon": {
+    "title": "GameOn! - 2025",
+    "description": "Application full-stack de démonstration sur le thème des jeux de société.",
+    "presentation": "Développement d’une application fullstack dédiée aux jeux de société, qui s’apparente à un mini magasin e-commerce. Ce projet a été conçu comme une démonstration technique pour présenter une solution complète et fonctionnelle, allant du backend à l’interface utilisateur.",
+    "contribution": "Ce projet m’a permis de mettre en pratique une architecture fullstack en combinant plusieurs technologies modernes (Java, Nuxt, Tailwind, etc.) J'ai \"conteneurisé\" l’application sur mon VPS pour simplifier son déploiement, et utilisé une base de données PostgreSQL pour gérer les informations des jeux.",
+    "frontend": "Nuxt, Nuxt UI / Tailwind CSS, Pinia",
+    "backend": "Java 17, PostgreSQL",
+    "keyfunctions": [
+      "Consultation des jeux sur plusieurs pages avec tri dynamique (par ordre alphabétique, popularité, etc.), filtres de recherche avancés, et options d’affichage en mode grille ou liste.",
+      "Accès aux informations complètes d’un jeu, avec une vidéo YouTube intégrée pour la présentation et un affichage clair des règles.",
+      "Expérience utilisateur optimisée grâce à une interface intuitive et réactive adaptée à tous les appareils."
+    ],
+    "items": ["GO1.webp", "GO2.webp", "GO3.webp", "GO4.webp"],
+    "projects": [
+      {
+        "id": "1",
+        "title": "Accueil Fraternel Roubaisien",
+        "image": "AFR1.webp",
+        "link": "/afr"
+      },
+      {
+        "id": "2",
+        "title": "Militaria Rig",
+        "image": "MR1.webp",
+        "link": "/militaria"
+      }
+    ]  
+  },
+  "militaria": {
+    "title": "Militaria Rig - 2021",
+    "description": "Site communautaire autour d'une collection d'objets historiques d'une valeur historique inconnue.",
+    "presentation": "Ce site a été conçu pour une connaissance ayant hérité d’une collection d’objets historiques, dont la valeur et l’importance culturelle étaient méconnues. L'objectif du projet était de créer une plateforme collaborative où les utilisateurs pourraient renseigner des informations, poser des questions ou contribuer à la documentation de cette collection. Malheureusement, le développement du site a été interrompu suite à la vente de la collection.",
+    "contribution": "Ce projet m’a permis d’élargir mes compétences techniques et de découvrir de nouvelles technologies. Bien que j’aie déjà étudié des frameworks comme Angular et React en école d’ingénieur, ce fut ma première expérience avec Laravel et son intégration avec un frontend Vue.js.",
+    "frontend": "Vue.js 2, Vuetify, Vuex, Vue Passport",
+    "backend": "Laravel 7",
+    "keyfunctions": [
+      "Système d’authentification complet avec gestion des espaces personnels pour chaque utilisateur.",
+      "Intégration d’un système de mailing pour les notifications et la communication.",
+      "Gestion collaborative des données et mise en place d’un espace d’administration pour le suivi et la maintenance."
+    ],
+    "items": ["MR1.webp", "MR2.webp", "MR3.webp", "MR4.webp"],
+    "projects": [
+      {
+        "id": "1",
+        "title": "GameOn!",
+        "image": "GO1.webp",
+        "link": "/gameonapp"
+      },
+      {
+        "id": "2",
+        "title": "Accueil Fraternel Roubaisien",
+        "image": "AFR1.webp",
+        "link": "/afr"
+      }
+    ]
+  },
+  "afr": {
+    "title": "AFR - 2024/2025",
+    "description": "Création du site internet de l'association de l'Accueil Fraternel Roubaisien",
+    "presentation": "Création du site internet de l'association Accueil Fraternel Roubaisien, une organisation dédiée à promouvoir la solidarité et l'entraide. Ce site vitrine a été conçu pour mettre en avant les actions de l'association, sensibiliser le public à ses missions, et faciliter l'accès aux informations essentielles pour ses bénéficiaires et partenaires.",
+    "contribution": "Ce projet a été une formidable opportunité pour approfondir mes connaissances sur Angular et explorer davantage ses possibilités. En me fixant une contrainte personnelle de ne pas utiliser de framework CSS, j’ai pu me replonger dans les fondamentaux du CSS pur, puis exploiter Sass pour structurer et organiser le style de manière efficace et modulaire. J’ai également pu intégrer des services modernes via Firebase, notamment pour gérer des fonctionnalités telles que l’hébergement, ou la base de données.",
+    "frontend": "Angular 17, Sass",
+    "backend": "Firebase",
+    "items": ["AFR1.webp", "AFR2.webp", "AFR3.webp"],
+    "projects": [
+      {
+        "id": "1",
+        "title": "GameOn!",
+        "image": "GO1.webp",
+        "link": "/gameonapp"
+      },
+      {
+        "id": "2",
+        "title": "Militaria Rig",
+        "image": "MR1.webp",
+        "link": "/militaria"
+      }
+    ]    
+  }
+}
