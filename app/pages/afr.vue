@@ -4,9 +4,7 @@
     
     <div class="container mx-auto px-8">
       <div class="text-center py-4">
-        <h1 class="text-3xl text-customA2 font-bold">
-          {{ pageContent.title }}
-        </h1>
+        <h1 class="text-3xl text-customA2 font-bold">{{ pageContent.title }}</h1>
         <p class="text-lg font-medium flex justify-center mx-auto md:w-2/3 p-2">{{ pageContent.description }}</p>
         <CarouselSection :items="pageContent.items" />
         <UButton to="https://afrbx-1f413.web.app/" target="_blank" size="xl" class="bg-customA3 focus-visible:outline-customA2 hover:bg-customA2 mt-4">Visiter le site (en construction)</UButton>
