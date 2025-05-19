@@ -9,7 +9,7 @@
         <CarouselSection :items="pageContent.items" />
         <div class="flex mx-auto justify-center gap-2 mt-8">
           <UButton to="https://charlesbrouillier.fr/gameon/" target="_blank" size="xl" class="disabled:bg-customA3 focus-visible:outline-customA2 hover:bg-customA2">Visiter le site</UButton>
-          <UButton to="https://github.com/orgs/CharlesBrouillier-gameon/repositories" target="_blank" size="xl" icon="mdi:github" color="neutral">Voir sur Github</UButton>
+          <UButton to="https://github.com/CharlesBrouillier/gameon-frontend" target="_blank" size="xl" icon="mdi:github" color="neutral">Voir sur Github</UButton>
         </div>
       </div>
 
