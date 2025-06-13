@@ -1,12 +1,23 @@
 [
   {
     "id": "1",
+    "title": "A venir",
+    "date": "2025",
+    "description": "A venir",
+    "image": "TBD.webp",
+    "link": "/",
+    "animationDelay": "250ms",
+    "technologies": [
+    ]
+  },
+  {
+    "id": "2",
     "title": "GameOn!",
     "date": "2025",
     "description": "Application full-stack de démonstration sur le thème des jeux de société.",
     "image": "GO1.webp",
     "link": "/gameonapp",
-    "animationDelay": "250ms",
+    "animationDelay": "50ms",
     "technologies": [
       { "name": "Java 17", "image": "Java.webp" },
       { "name": "Nuxt", "image": "Nuxt.webp" },
@@ -14,21 +25,6 @@
       { "name": "Postgre", "image": "PostgreSQL.webp" },
       { "name": "Docker", "image": "Docker.webp" },
       { "name": "Pinia", "image": "Pinia.webp" }
-    ]
-  },
-  {
-    "id": "2",
-    "title": "Association AFR",
-    "date": "2024/2025",
-    "description": "Création du site internet de l'association de l'Accueil Fraternel Roubaisien.",
-    "image": "AFR1.webp",
-    "link": "/afr",
-    "animationDelay": "50ms",
-    "technologies": [
-      { "name": "Angular 17", "image": "Angular.webp" },
-      { "name": "Sass", "image": "Sass.webp" },
-      { "name": "Firebase", "image": "Firebase.webp" },
-      { "name": "", "image": ""}, { "name": "", "image": ""}, { "name": "", "image": ""}
     ]
   },
   {
