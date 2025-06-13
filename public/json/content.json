@@ -15,9 +15,9 @@
     "projects": [
       {
         "id": "1",
-        "title": "Accueil Fraternel Roubaisien",
-        "image": "AFR1.webp",
-        "link": "/afr"
+        "title": "A venir",
+        "image": "TBD.webp",
+        "link": "/gameonapp"
       },
       {
         "id": "2",
@@ -43,15 +43,15 @@
     "projects": [
       {
         "id": "1",
-        "title": "GameOn!",
-        "image": "GO1.webp",
-        "link": "/gameonapp"
+        "title": "A venir",
+        "image": "TBD.webp",
+        "link": "/militaria"
       },
       {
         "id": "2",
-        "title": "Accueil Fraternel Roubaisien",
-        "image": "AFR1.webp",
-        "link": "/afr"
+        "title": "GameOn!",
+        "image": "GO1.webp",
+        "link": "/gameonapp"
       }
     ]
   },
