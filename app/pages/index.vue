@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[url('/images/background.svg')] bg-repeat bg-cover text-center">
+  <div class="bg-[url('/images/background.svg')] bg-repeat bg-cover text-center min-h-screen">
     <UContainer class="p-0 w-full max-w-none">
       <Profile/>
 
