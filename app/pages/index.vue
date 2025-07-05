@@ -9,6 +9,19 @@
           <ProjectCard v-for="project in projects" :key="project.id" :project="project" draggable="false" />
         </div>
       </div>
+
+      <div class="lg:py-6 pb-8">
+        <h1 class="text-2xl text-custom-200 font-bold underline animate-slideUp opacity-0 mt-4 md:mt-0 md:mb-2 pb-8">Mes expériences</h1>
+        <div class="flex justify-center">
+          <UTimeline
+            :items="items"
+            :ui="{ item: 'even:flex-row-reverse even:-translate-x-[calc(100%-2rem)] even:text-right' }"
+            :default-value="4"
+            class="translate-x-[calc(50%-1rem)]"
+          />
+        </div>
+      </div>
+
     </UContainer>
   </div>
 </template>
@@ -19,4 +32,24 @@ import ProjectCard from '../components/projectCardComponent.vue';
 
 import projects from '~~/public/json/projects.json'
 
+import type { TimelineItem } from '@nuxt/ui'
+
+const items: TimelineItem[] = [
+  {
+    date: 'Depuis juin 2025',
+    title: 'Développeur Java',
+  },
+  {
+    date: 'Jan 2023 - Mai 2025',
+    title: 'Développeur Java / COBOL',
+  },
+  {
+    date: 'Oct 2021 - Déc 2022',
+    title: 'Développeur C# / COBOL',
+  },
+  {
+    date: 'Sept 2018 - Sept 2021',
+    title: 'Développeur COBOL',
+  }
+]
 </script>
