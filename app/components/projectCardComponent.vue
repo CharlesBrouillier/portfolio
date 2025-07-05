@@ -1,7 +1,7 @@
 <template>
-  <NuxtLink :to="project.link" class="flex h-full focus:outline-customA2 focus:outline-offset-4">
+  <NuxtLink :to="project.link" class="flex h-full focus:outline-custom-200 focus:outline-offset-4">
     <div class="flex hover:scale-105 transition-all">
-      <div class="relative flex flex-col cursor-pointer animate-slideUp opacity-0 hover:animate-hoverScal rounded-xl text-white bg-customA3 border-neutral-400 border-2" :style="{ animationDelay: project.animationDelay }">
+      <div class="relative flex flex-col cursor-pointer animate-slideUp opacity-0 hover:animate-hoverScal rounded-xl text-white bg-custom-100 border-neutral-400 border-2" :style="{ animationDelay: project.animationDelay }">
         <div class="overflow-hidden rounded-xl border-neutral-600 border-2 mx-4 -mt-6">
           <NuxtImg :src="'/images/' + project.image" :alt="project.title" format="webp" width="600" height="360" draggable="false" loading="eager"/>
         </div>

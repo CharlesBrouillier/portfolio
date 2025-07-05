@@ -3,10 +3,8 @@
 
 @theme {
   --font-sans: 'Public Sans', sans-serif;
-  --color-customBg: #f1f4f5;
-  --color-customA1: #49b8aa;
-  --color-customA2: #c97b3c;
-  --color-customA3: #d39461;
+  --color-custom-100: #d39461;
+  --color-custom-200: #c97b3c;
 }
 
 @keyframes slideUp {

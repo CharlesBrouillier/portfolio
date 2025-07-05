@@ -4,11 +4,11 @@
 
     <div class="container mx-auto px-8">
       <div class="text-center py-4">
-        <h1 class="text-3xl text-customA2 font-bold">{{ pageContent.title }}</h1>
+        <h1 class="text-3xl text-custom-200 font-bold">{{ pageContent.title }}</h1>
         <p class="text-lg font-medium flex justify-center mx-auto md:w-2/3 p-2">{{ pageContent.description }}</p>
         <CarouselSection :items="pageContent.items" />
         <div class="flex mx-auto justify-center gap-2 mt-8">
-          <UButton to="https://charlesbrouillier.fr/gameon/" target="_blank" size="xl" class="disabled:bg-customA3 focus-visible:outline-customA2 hover:bg-customA2">Visiter le site</UButton>
+          <UButton to="https://charlesbrouillier.fr/gameon/" target="_blank" size="xl" class="disabled:bg-custom-100 focus-visible:outline-custom-200 hover:bg-custom-200">Visiter le site</UButton>
           <UButton to="https://github.com/CharlesBrouillier/gameon-frontend" target="_blank" size="xl" icon="mdi:github" color="neutral">Voir sur Github</UButton>
         </div>
       </div>

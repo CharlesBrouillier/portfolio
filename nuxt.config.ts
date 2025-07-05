@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxt/image"],
-  css: ['~/assets/main.css'],
+  css: ['~/assets/css/main.css'],
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     baseURL: '/',
@@ -14,7 +14,6 @@ export default defineNuxtConfig({
       },
       meta: [
         {
-          hid: 'description',
           name: 'description',
           content: "Portfolio - Charles BROUILLIER"
         }

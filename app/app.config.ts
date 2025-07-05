@@ -8,7 +8,7 @@ export default defineAppConfig({
       compoundVariants: [
         {
           color: 'primary',
-          class: 'hover:bg-[var(--color-customA2)] bg-[var(--color-customA3)] disabled:bg-[var(--color-customA2)] hover:bg-[var(--color-customA2)] focus-visible:outline-[var(--color-customA2)]',
+          class: 'hover:bg-[var(--color-custom-200)] bg-[var(--color-custom-100)] disabled:bg-[var(--color-custom-200)] hover:bg-[var(--color-custom-200)] focus-visible:outline-[var(--color-custom-200)]',
         },
       ],
     },
@@ -22,7 +22,7 @@ export default defineAppConfig({
       variants: {
         active: {
           true: {
-            dot: 'bg-[var(--color-customA2)]',
+            dot: 'bg-[var(--color-custom-200)]',
           },
         },
       },
@@ -30,12 +30,12 @@ export default defineAppConfig({
     toast: {
       slots: {
         root: 'ring-1 ring-black opacity-90',
-        icon: 'bg-[var(--color-customA2)]',
+        icon: 'bg-[var(--color-custom-200)]',
       },
       variants: {
         color: {
           primary: {
-            progress: 'bg-[var(--color-customA2)]',
+            progress: 'bg-[var(--color-custom-200)]',
           },
         },
       },
