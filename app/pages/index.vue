@@ -12,14 +12,12 @@
 
       <div class="lg:py-6 pb-8">
         <h1 class="text-2xl text-custom-200 font-bold underline animate-slideUp opacity-0 mt-4 md:mt-0 md:mb-2 pb-8">Mes expériences</h1>
-        <div class="flex justify-center">
-          <UTimeline
-            :items="items"
-            :ui="{ item: 'even:flex-row-reverse even:-translate-x-[calc(100%-2rem)] even:text-right' }"
-            :default-value="4"
-            class="translate-x-[calc(50%-1rem)]"
-          />
-        </div>
+        <UTimeline
+          :items="items"
+          :ui="{ item: 'even:flex-row-reverse even:-translate-x-[calc(100%-2rem)] even:text-right odd:text-left' }"
+          :default-value="4"
+          class="translate-x-[calc(50%-1rem)]"
+        />
       </div>
 
     </UContainer>
@@ -38,18 +36,22 @@ const items: TimelineItem[] = [
   {
     date: 'Depuis juin 2025',
     title: 'Développeur Java',
+    description: '',
   },
   {
     date: 'Jan 2023 - Mai 2025',
     title: 'Développeur Java / COBOL',
+    description: 'Oney via Infotel',
   },
   {
     date: 'Oct 2021 - Déc 2022',
     title: 'Développeur C# / COBOL',
+    description: 'Euro-Information Développements via Apside',
   },
   {
     date: 'Sept 2018 - Sept 2021',
     title: 'Développeur COBOL',
+    description: 'MATMUT',
   }
 ]
 </script>
