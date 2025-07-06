@@ -27,6 +27,24 @@ export default defineAppConfig({
         },
       },
     },
+    timeline: {
+      variants: {
+        color: {
+          primary: {
+            indicator: 'group-data-[state=completed]:bg-[var(--color-custom-100)] group-data-[state=active]:bg-[var(--color-custom-100)]'
+          },
+        }
+      },
+      compoundVariants: [
+        {
+          color: 'primary',
+          reverse: false,
+          class: {
+            separator: 'group-data-[state=completed]:bg-[var(--color-custom-100)]'
+          }
+        }
+      ]
+    },
     toast: {
       slots: {
         root: 'ring-1 ring-black opacity-90',
