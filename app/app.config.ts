@@ -28,6 +28,12 @@ export default defineAppConfig({
       },
     },
     timeline: {
+      slots: {
+        root: 'gap-4',
+        indicator: 'w-16 h-16',
+        item: 'gap-8',
+        separator: 'h-8'
+      },
       variants: {
         color: {
           primary: {
