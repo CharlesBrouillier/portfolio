@@ -14,22 +14,31 @@
         <h1 class="text-2xl text-custom-200 font-bold underline animate-slideUp opacity-0 mt-4 md:mt-0 md:mb-2 pb-8">Mes expériences</h1>
         <div class="hidden lg:block">
           <UTimeline
-            :items="items"
-            :ui="{ item: 'even:flex-row-reverse even:-translate-x-[calc(100%-4rem)] even:text-right odd:text-left' }"
-            :default-value="4"
-            size="3xl"
-            class="translate-x-[calc(97%)] max-w-1/2"
+          :items="items"
+          :ui="{ item: 'even:flex-row-reverse even:-translate-x-[calc(100%-4rem)] even:text-right odd:text-left' }"
+          :default-value="4"
+          size="sm"
+          class="translate-x-[calc(97%)] max-w-1/2"
           />
         </div>
-
-        <div class="hidden max-lg:block">
+        
+        <div class="hidden sm:block lg:hidden">
           <div class="flex justify-center">
             <UTimeline
               :items="items"
               :default-value="4"
-              size="3xl"
+              size="sm"
               class="w-1/2"
             />
+          </div>
+        </div>
+
+        <div class="xs:block sm:hidden">
+          <div class="grid grid-cols-2 px-8 gap-8">
+            <NuxtImg src="../../images/Adeo.webp" class="flex mx-auto rounded-full w-24 cursor-pointer hover:scale-105 transition-all"/>
+            <NuxtImg src="../../images/Oney.webp" class="flex mx-auto rounded-full w-24 cursor-pointer hover:scale-105 transition-all"/>
+            <NuxtImg src="../../images/EID.webp" class="flex mx-auto rounded-full w-24 cursor-pointer hover:scale-105 transition-all"/>
+            <NuxtImg src="../../images/Matmut.webp" class="flex mx-auto rounded-full w-24 cursor-pointer hover:scale-105 transition-all"/>
           </div>
         </div>
       </div>
@@ -65,7 +74,7 @@ const items: TimelineItem[] = [
   {
     date: 'Oct 2021 - Déc 2022',
     title: 'Développeur C# / COBOL',
-    description: 'Euro-Information Développements via Apside',
+    description: 'Euro Information Développements via Apside',
     avatar: {
       src: '../../images/EID.webp'
     }
