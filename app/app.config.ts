@@ -31,7 +31,7 @@ export default defineAppConfig({
       slots: {
         root: 'gap-4',
         indicator: 'w-16 h-16',
-        item: 'gap-8',
+        item: 'gap-8 cursor-pointer',
         separator: 'h-8'
       },
       variants: {

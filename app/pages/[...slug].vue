@@ -7,7 +7,7 @@
 const router = useRouter();
 const route = useRoute();
 
-if (route.path !== '/gameon') {
+if (route.path !== '/gameon' || route.path !== '/playvia') {
   router.push('/');
 }
 </script>
