@@ -5,9 +5,6 @@
 <script setup>
 
 const router = useRouter();
-const route = useRoute();
 
-if (route.path !== '/gameon' && route.path !== '/playvia') {
-  router.push('/');
-}
+router.push('/');
 </script>
